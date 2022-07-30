@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Project/PROJECT/CustomersFunctions.c
+main.h
+C:/Project/PROJECT/main.h
+
+C:/Project/PROJECT/main.c
+main.h
+C:/Project/PROJECT/main.h
+
+C:/Project/PROJECT/main.h
+stdlib.h
+-
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+string.h
+-
+math.h
+-
+time.h
+-
+
